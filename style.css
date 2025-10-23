@@ -62,7 +62,7 @@ button{
     flex-basis: 450px;
     margin: 64px;
 }
-.headimage{
+.headimage img{
     width: 520px;
     height: 240px;
     background-color: #C06C2D;
