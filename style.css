@@ -12,6 +12,8 @@ body {
     height: 150px;
     width: auto;
     padding-right: 258px;
+    border: 1px;
+    border-radius: 8px;
 }
 .navigation{
     display: flex;
