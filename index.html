@@ -51,6 +51,42 @@
             </div>    
             <button>Sign up</button>
         </div>
+        <!-- ⭐ TABLE RESERVATION SECTION -->
+<div class="reservation" id="reserve">
+    <h2 class="reserve-title">Reserve a Table</h2>
+
+    <div class="reserve-box">
+
+        <div class="reserve-left">
+            <img src="table.jpg" alt="Restaurant table">
+        </div>
+
+        <form class="reserve-form" id="reserveForm">
+            <label>Name</label>
+            <input type="text" id="resName" placeholder="Enter your full name" required>
+
+            <label>Phone Number</label>
+            <input type="text" id="resPhone" placeholder="Enter your phone" required>
+
+            <label>Date</label>
+            <input type="date" id="resDate" required>
+
+            <label>Time</label>
+            <input type="time" id="resTime" required>
+
+            <label>Number of People</label>
+            <input type="number" id="resPeople" min="1" placeholder="2" required>
+
+            <button type="submit" class="reserve-btn">Reserve Table</button>
+
+            <p class="reserve-success" id="reserveSuccess" style="display:none;">
+                ✔ Your table has been reserved! We’ll contact you shortly.
+            </p>
+        </form>
+
+    </div>
+</div>
+
         
     </div>
     <div class="footer"><div class="footerinside">Agnirasa | 123 Spice Street, Agra, Uttar Pradesh | +91 987-654-3210
