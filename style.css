@@ -325,3 +325,94 @@ button:active::after {
     padding: 60px 20px;
   }
 }
+/* ================================
+   TABLE RESERVATION SECTION
+================================== */
+
+.reservation {
+  margin: 80px auto;
+  width: 80%;
+  padding: 40px;
+  background: #FFF7EF;
+  border-radius: 16px;
+  box-shadow: 0 12px 28px rgba(0,0,0,0.15);
+  animation: fadeUp 0.8s ease;
+}
+
+.reserve-title {
+  text-align: center;
+  font-size: 42px;
+  color: #E87400;
+  font-weight: 900;
+  margin-bottom: 30px;
+}
+
+.reserve-box {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.reserve-left img {
+  width: 350px;
+  height: 320px;
+  border-radius: 14px;
+  object-fit: cover;
+  box-shadow: 0 10px 26px rgba(0,0,0,0.2);
+}
+
+.reserve-form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  gap: 12px;
+}
+
+.reserve-form label {
+  font-weight: 600;
+  color: #2C2521;
+}
+
+.reserve-form input {
+  padding: 12px;
+  border-radius: 8px;
+  border: 2px solid #E87400;
+  font-size: 16px;
+  outline: none;
+  transition: 0.3s ease;
+  background: #FFF;
+}
+
+.reserve-form input:focus {
+  border-color: #FF7A00;
+  box-shadow: 0 0 8px rgba(255, 122, 0, 0.4);
+}
+
+.reserve-btn {
+  margin-top: 10px;
+  background: #E87400;
+  color: #FAF7F0;
+  padding: 14px;
+  font-size: 18px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.3s ease;
+}
+
+.reserve-btn:hover {
+  background: #c76000;
+  transform: translateY(-3px);
+}
+
+.reserve-success {
+  margin-top: 10px;
+  font-size: 16px;
+  color: #2C9A00;
+  font-weight: 700;
+  text-align: center;
+}
+
