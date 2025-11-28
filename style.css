@@ -24,7 +24,7 @@ body {
     display: flex;
     gap: 64px;
     margin: auto;
-    transition: box-shadow 0.3s ease;
+    
 }
 .list li{
     transition: box-shadow 0.3s ease;
